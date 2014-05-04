@@ -34,9 +34,9 @@ RM= rm -f
 # file rename command
 MV= mv
 # library (.a) file creation command
-AR= ar rc
+AR= emar rc
 # second step in .a creation (use "touch" if not needed)
-AR2= ranlib
+AR2= emranlib
 
 # End of configurable options.
 
